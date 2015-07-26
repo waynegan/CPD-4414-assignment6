@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package credentals;
+package credentials;
 
 
 import java.io.StringWriter;
@@ -30,7 +30,7 @@ public class Database {
         
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String jdbc = "jdbc:mysql://mysql3.000webhost.com/a3551530_gan";
+            String jdbc = "jdbc:mysql://mysql3.000webhost.com/";
             conn = DriverManager.getConnection(jdbc, "a3551530_gan", "passw0rd"); 
         } catch (ClassNotFoundException ex) {
           //  Logger.getLogger(ProductsREST.class.getName()).log(Level.SEVERE, null, ex);
